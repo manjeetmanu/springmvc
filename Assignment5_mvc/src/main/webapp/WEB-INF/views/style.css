@@ -1,0 +1,207 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+    min-height: 100%;
+}
+
+
+body {
+    font-family: 'Lato';
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    /* margin: 0;
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #212529;
+    text-align: left;
+    background-color: #f5f8fa; */
+}
+
+header,
+footer {
+    
+    padding: 10px;
+    flex: none;
+}
+
+header {
+    
+    background: linear-gradient(180deg, rgb(203, 195, 227) 50%, rgba(255, 195, 0, 0.2));
+}
+
+footer {
+
+    text-align: center;
+    padding: 10px;
+    /* bottom: 0; */
+    background: linear-gradient(180deg, rgba(255, 195, 0, 0.3), rgb(203, 195, 227) 50%);
+}
+
+main {
+    padding: 10px 0;
+    
+    flex: auto;
+
+    flex-grow: 1;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    /* Center the DIV horizontally */
+}
+
+
+.flex-fill {
+    flex: 1 1 auto;
+}
+
+.my-form {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.my-form .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.login-form {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.login-form .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* Add some padding on document's body to prevent the content
+    to go underneath the header and footer */
+
+
+/* .fixed-header,
+    .fixed-footer {
+        min-height: 10vh;
+      
+        color: #fff;
+    } */
+
+/* .fixed-header {
+       
+        background: linear-gradient(180deg, rgb(203, 195, 227)  50%, rgba(255, 195, 0, 0.2) );
+    } */
+
+
+
+    legend{
+        color: blue;
+    }
+
+
+    table{
+        margin: 10px 0;
+        width: 100%;
+    
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
+    }
+
+
+
+    /* .employee-list-table {
+ 
+    margin: 10px 0;
+    width: 100%;
+
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+
+} */
+
+.employee-list-th {
+    background-color:#F5D76E;
+    padding: 2px;
+}
+
+.employee-list-table,
+.employee-list-tr> *
+
+ {
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.employee-list-tr> * {
+    padding: 5px;
+}
+
+
+.employee-fieldset {
+    padding: 30px;
+    border-color: rgba(211,211,211,1);
+    border-style: solid;
+
+    border-radius: 5px;
+
+
+}
+
+.edit-btn {
+    padding: 3px 10px;
+}
+
+.color-darkblue {
+    color: darkblue;
+}
+
+
+.user-status> *{
+    padding: 5px;
+    float: right;
+    display: inline;
+}
+
+.action-btn-row{
+
+
+    /* padding: 5px 0; */
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: end;
+}
+
+.action-btn-row>*{
+    padding: 5px;
+  margin: 5px;
+}
+
+.employee-edit-label{
+    padding: 10px;
+    text-align: right;
+}
+
+.employee-edit-btn-left{
+    padding: 10px;
+    float: right;
+}
+
+.employee-edit-btn> *{
+    padding: 5px 10px;
+}
